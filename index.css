@@ -66,7 +66,8 @@ nav button {
 .paragrafo{
     text-align: center;
     color: #ffffff;
-    font-size: 17px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .boasvindas{
     background-color: black;
@@ -89,4 +90,34 @@ nav button {
     padding: 90px 100px; 
     color: #fafafa;
     opacity: 50%;
+}
+.comp{
+    position: relative;
+    left: 70%;
+    max-width:500px;
+    max-height: 700px;
+    width: auto;
+    height: auto;
+    
+}
+.qualidades h3{
+    color: white;
+    font-size: 40px;
+    font-family: monospace;
+    padding: 90px 100px;
+    left:  0;
+    right: 0;
+    position: absolute;
+    top: 200px;
+
+}
+.qualidades p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding:70px 100px;
+    left:  0;
+    right: 0;
+    position: absolute;
+    top: 300px;
 }
