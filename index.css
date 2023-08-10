@@ -55,7 +55,11 @@ nav button {
     right: 100px;
     font-family: Arial, Helvetica, sans-serif;
 }
-
+.botao:hover {
+    background: #174165;
+    box-shadow: inset 4px 4px 4px rgba(42, 38, 241, 0.2);
+    text-shadow: none;
+}
 .textoinicio{
     position: relative;
     padding: 200px 100px; 
