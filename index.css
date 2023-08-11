@@ -5,12 +5,11 @@ body{
 
 }
 .logo{
-    max-width:150px;
-    max-height:200px;
-    width: auto;
-    height: auto;
+    width: 150px;
+    height: 150px;
     position: relative;
-    left: 10px;
+    left: 50px;
+    bottom: 8px;
 }
 
 header{
@@ -24,6 +23,7 @@ header{
   align-items: center;
   background-color: #cbb9ff;
   padding: 10px 10px;
+  height: 70px;
   
 }
 nav {
@@ -61,74 +61,10 @@ nav button {
     position: relative;
     right: 100px;
     font-family: Arial, Helvetica, sans-serif;
+    width: 130px;
 }
 .botao:hover {
     background: #59429d;
     box-shadow: inset 4px 4px 4px rgba(0, 0, 0, 2);
     text-shadow: none;
-}
-.textoinicio{
-    position: relative;
-    padding: 200px 100px; 
-    color: #fafafa;
-    opacity: 50%;  
-    background-image: url(img/programa.jpg); 
-}
-.paragrafo{
-    text-align: center;
-    color: #ffffff;
-    font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.boasvindas{
-    background-color: black;
-    padding: 10px 25px;
-    left:  0;
-    right: 0;
-    position: absolute;
-    top: 170px;
-}
-.qualidades{
-    background-color: #6a8294;
-    padding: 10px 25px;
-    left:  0;
-    right: 0;
-    position: absolute;
-    top: 770px;
-}
-.textoqualidades{
-    position: relative;
-    padding: 90px 100px; 
-    color: #fafafa;
-    opacity: 50%;
-}
-.comp{
-    position: relative;
-    left: 70%;
-    max-width:500px;
-    max-height: 700px;
-    width: auto;
-    height: auto;
-    
-}
-.qualidades h3{
-    color: white;
-    font-size: 40px;
-    font-family: monospace;
-    padding: 90px 100px;
-    left:  0;
-    right: 0;
-    position: absolute;
-    top: 200px;
-
-}
-.qualidades p{
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    padding:70px 100px;
-    left:  0;
-    right: 0;
-    position: absolute;
-    top: 300px;
 }
