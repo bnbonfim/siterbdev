@@ -90,7 +90,7 @@ fieldset.grupo .campo {
 
 /* Elemento de classe "campo" com tag <input>, <select> e <textarea> tocas com estado da pseudoclasse "focus"*/
 .campo input:focus, .campo select:focus, .campo textarea:focus {
-    background: #cbb9ff;
+    background: #a07aaa;
 }
 
 /* Elemento de classe "botao" */
