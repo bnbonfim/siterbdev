@@ -65,7 +65,17 @@ legend{
     font-size: 15px;
     cursor: pointer;
     border-radius: 10px;
+    text-decoration: none;
 }
 #submit:hover{
     background-image: linear-gradient(to right,rgb(8, 72, 145), rgb(46, 0, 131));
+}
+.divs{
+    display: flex;
+    align-items: center;
+   
+}
+.float{
+    float: right;
+    padding: 10px 30px;
 }

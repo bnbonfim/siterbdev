@@ -2,6 +2,7 @@ body{
     width: 100%;
     height: 900vh;
     margin: 0 auto;
+    background-image: linear-gradient(to right, rgb(43, 50, 54), rgb(11, 8, 14) );
 
 }
 .logo{
@@ -12,7 +13,7 @@ body{
     bottom: 8px;
     align-items: center;
 }
-
+ 
 header{
   position: fixed;
   width: 100%;
