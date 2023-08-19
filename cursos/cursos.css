@@ -31,10 +31,9 @@ p{
 }
 .logo{
     width: 150px;
-    height: 130px;
+    height: 60px;
     position: relative;
     left: 50px;
-    bottom: 8px;
     align-items: center;
 }
  
