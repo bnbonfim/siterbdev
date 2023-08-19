@@ -4,7 +4,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 body{
-    width: 80%;
+    width: 80%; 
     height: 100%;
     padding-top: 150px;
     margin: 0 auto;
@@ -14,10 +14,9 @@ body{
 }
 .logo{
     width: 150px;
-    height: 130px;
+    height: 60px;
     position: relative;
     left: 50px;
-    bottom: 8px;
     align-items: center;
 }
  
@@ -56,7 +55,7 @@ nav {
 
 nav button {
     cursor: pointer;
-    background-color: #6a8294; /* Green */
+    background-color: #174165; /* Green */
     border: none;
     border-top: 1px solid #96d1f8;
     padding: 9.5px 19px;
@@ -65,7 +64,6 @@ nav button {
     border-radius: 20px;
     color: white;
     font-size: 15px;
-    font-family: Georgia, serif;
     text-decoration: none;
     vertical-align: middle;
     margin: 0 20px;
@@ -78,11 +76,12 @@ nav button {
     background: #59429d;
     box-shadow: inset 4px 4px 4px rgba(0, 0, 0, 2);
     text-shadow: none;
+    color: #d6c4f8;
 }
-p {
+.principal {
     text-align: center;
-    text-align: justify;
     font-size: 20px;
+    color: rgb(255, 255, 255);
     
 }
 h2, h1{
@@ -94,10 +93,24 @@ img{
     max-width: 100%;
        
 }
+.divs{
+    width: 100%;
+    
+}
 .float{
+    width: 45%;
+    float: left;
+    margin: 15px 30px;
+
+    
+    
+}
+p{
+    text-align: center;
+    text-align: justify;
+}
+.cursos{
     width: 100px;
     height: 100px;
-    float: left;
-    background-color: #59429d;
-    border: 2px solid #96d1f8;
+    display: flex;
 }
