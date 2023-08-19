@@ -1,21 +1,27 @@
 * {
     margin: 0;
     padding: 0;
-    text-decoration: 0;
+    text-decoration: none;
+
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-image: linear-gradient(to right, rgb(158, 216, 243), rgb(143, 105, 231));
     color: white;
+    height: 900vh;
+}
+header{
+    width: 100%;
+    position: fixed;
 }
 .img-logo{
     width: 100px;
-
 }
 .header, .menu{
     display: flex;
     flex-direction: row;
-    align-items: center;
+    text-align: center;
+    
 }
 .header{
     box-shadow: 1px 1px 4px #59429d;
@@ -23,26 +29,65 @@ body{
     height: 45px;
     justify-content: space-between;
     padding: 0 7%;
-
+    
 }
 .menu{
     gap: 3em;
 }
 .menu a {
     color: #000000;
-    transition: 2s;
-    font-weight: bold;    
+    transition: 1s;
+    font-weight: bold;
 }
-.animation{
-    background-color: #59429d;
-    border-radius: 8px;
-    padding: 4px;
+nav{
+    background-color: #;
 }
-
+nav li{
+    display: inline-block;
+}
+nav li a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 13.5px;
+    
+}
+nav li a:hover{
+    background-color: #174165;
+}
+.droop-menu{
+    position: absolute;
+    box-shadow: 0 0 2px black;
+    display: none;
+}
+.droop-menu a {
+    display: block;
+    color: black;
+}
+.droop:hover .droop-menu{
+    display: block;
+}
+.botao{
+    font-size: 1.2em;
+    background: #59429d;
+    border: 0;
+    margin-bottom: 1em;
+    color: #000000;
+    padding: 0.3em 0.7em;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+.botao:hover{
+    background: #CCBBFF;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
+    text-shadow: none;
+}
 .responder{
     text-align: center;
-    padding-top: 30px;
-    height: 100vh;
-    transition: 1s;
+    padding: 75px 0;
 }
-
