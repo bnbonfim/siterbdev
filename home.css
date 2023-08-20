@@ -39,9 +39,6 @@ header{
     transition: 1s;
     font-weight: bold;
 }
-nav{
-    background-color: #;
-}
 nav li{
     display: inline-block;
 }
