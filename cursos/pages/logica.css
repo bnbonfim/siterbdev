@@ -30,8 +30,7 @@ header{
     background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(229, 229, 238));
     height: 45px;
     justify-content: space-between;
-    padding: 0 7%;
-    
+    padding: 0 7%;   
 }
 .menu{
     gap: 3em;
@@ -58,6 +57,7 @@ nav li a:hover{
     position: absolute;
     box-shadow: 0 0 2px black;
     display: none;
+    background-color: #59429d;
 }
 .droop-menu a {
     display: block;
@@ -89,6 +89,7 @@ nav li a:hover{
 .responder{
     text-align: center;
     padding: 40px;
+    width: 90%;
 }
 
 .divs{
@@ -100,8 +101,28 @@ nav li a:hover{
     float: left;
     text-align: center;
     margin-right: 30px;
+    max-width: 545px;
+    margin-top: 15px;
+    height: 160px;
 }
 p{
     text-align: justify;
     width: 95%;
+    color: #000000;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    
+}
+h1, h3{
+    color: #174165;
+    font-weight: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+}
+hr{
+    border: 1px solid #174165;
+    margin-top: 5px;
+    margin-left: 50px;
+    width: 400px;
 }
