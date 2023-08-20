@@ -9,6 +9,8 @@ body{
     background-image: linear-gradient(to right, rgb(158, 216, 243), rgb(143, 105, 231));
     color: white;
     height: 900vh;
+    margin: 0 auto;
+    width: 100%;
 }
 header{
     width: 100%;
@@ -38,9 +40,6 @@ header{
     color: #000000;
     transition: 1s;
     font-weight: bold;
-}
-nav{
-    
 }
 nav li{
     display: inline-block;
@@ -89,5 +88,20 @@ nav li a:hover{
 }
 .responder{
     text-align: center;
-    padding: 70px;
+    padding: 40px;
+}
+
+.divs{
+    padding: 60px;
+    margin-left: 150px;
+    
+}
+.float{
+    float: left;
+    text-align: center;
+    margin-right: 30px;
+}
+p{
+    text-align: justify;
+    width: 95%;
 }

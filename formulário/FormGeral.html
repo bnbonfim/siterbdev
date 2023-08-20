@@ -3,10 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulário de Aluno</title>
-    <link rel="stylesheet" href="formclient.css">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="FormGeral.css">
 </head>
 <body>
+    <header>
+        <div class="header" id="header">
+            <div class="logo-header">
+                <img src="/img/rb dev.jpg" alt="img-logo">
+            </div>
+            <div class="menu" id="menu">
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="">Home</a>
+                        </li>
+                        <li>
+                            <a href="cursos/cursos.html">Cursos</a>
+                        </li>
+                        <li class="droop">
+                            <a href="#">Blog</a>
+                            <div class="droop-menu">
+                                <a href="#">Serviço 1</a>
+                                <a href="#">Serviço 2</a>
+                                <a href="#">Serviço 3</a>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
     <div class="box">
         <form action="">
             <fieldset>
@@ -26,7 +53,9 @@
                     <input type="tel" name="telefone" id="telefone" class="inputUser" required>
                     <label for="telefone" class="labelInput">Telefone</label>
                 </div>
+                <br>
                 <p>Sexo:</p>
+                <br>
                 <input type="radio" id="masculino" name="genero" value="masculino" required checked>
                 <label for="masculino">Masculino</label>
                 <br>
@@ -61,9 +90,7 @@
                     <div class="float">
                         <a href="/siterbdev/index.html" id="submit">Voltar</a>  
                     </div>
-                </div>     
-                             
-                
+                </div>                    
             </fieldset>
         </form>
     </div>
