@@ -1,170 +1,184 @@
 * {
     margin: 0;
     padding: 0;
-    text-decoration: none;
+    text-decoration: 0;
+}
 
-}
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    background-image: linear-gradient(to right, rgb(158, 216, 243), rgb(143, 105, 231));
-    color: white;
-    height: 900vh;
-}
-header{
+body {
     width: 100%;
-    position: fixed;
-    
-}
-.img-logo{
-    width: 100%;
-}
-.header, .menu{
+    height: 100vh;
     display: flex;
-    flex-direction: row;
-    text-align: center;
-    
+    justify-content: center;
+    align-items: center;
+    background: #0c0ce94d;
 }
-.header{
-    box-shadow: 1px 1px 4px #59429d;
-    background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(229, 229, 238));
-    height: 45px;
+
+.container {
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.212);
+}
+
+.form {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    padding: 3rem;
+}
+
+.form-header {
+    margin-bottom: 3rem;
+    display: flex;
     justify-content: space-between;
-    padding: 0 7%;
-    
 }
-.menu{
-    gap: 3em;
-}
-.menu a {
-    color: #000000;
-    transition: 1s;
-    font-weight: bold;
-}
-nav{
-    background-color: #;
-}
-nav li{
-    display: inline-block;
-}
-nav li a{
-    color: white;
-    text-decoration: none;
-    display: block;
-    padding: 13.5px;
-    
-}
-nav li a:hover{
-    background-color: #174165;
-}
-.droop-menu{
-    position: absolute;
-    box-shadow: 0 0 2px black;
-    display: none;
-}
-.droop-menu a {
-    display: block;
-    color: black;
-}
-.droop:hover .droop-menu{
-    display: block;
-}
-.botao{
-    font-size: 1.2em;
-    background: #59429d;
-    border: 0;
-    margin-bottom: 1em;
-    color: #000000;
-    padding: 0.3em 0.7em;
-    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
-    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
-    position: absolute;
-    top: 90%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-}
-.botao:hover{
-    background: #CCBBFF;
-    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
-    text-shadow: none;
-}
-.box {
-    color: white;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    background-color: rgba(0, 0, 0, 0.7);
-    padding: 15px;
-    border-radius: 15px;
-    width: 20%;
-}
-fieldset{
-    border: 3px solid #59429d;
-}
-legend{
-    border: 1px solid #59429d;
-    padding: 10px;
-    text-align: center;
-    background-color: #59429d;
-    border-radius: 8px;
-}
-.inputBox{
-    position: relative;
-}
-.inputUser{
-    background: none;
-    border: none;
-    border-bottom: 1px solid white;
-    outline: none;
-    color: white;
-    font-size: 15px;
-    width: 100%;
-    letter-spacing: 2px;
-}
-.labelInput{
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    pointer-events: none;
-    transition: .5s;
-    margin-bottom: 0.2em;
-    color: white;
-    display: block;
-}
-.inputUser:focus ~ .labelInput,
-.inputUser:valid ~ .labelInput{
-    top: -20px;
-    font-size: 12px;
-    color: #59429d;
-}
-#data_nascimento{
-    border: none;
-    padding: 8px;
-    border-radius: 10px;
-    outline: none;
-    font-size: 15px;
-}
-#submit{
-    background-image: linear-gradient(to right,rgb(58, 146, 248), rgb(129, 64, 250));
-    width: 100%;
-    border: none;
-    padding: 15px;
-    color: white;
-    font-size: 15px;
-    cursor: pointer;
-    border-radius: 10px;
-    text-decoration: none;
-}
-#submit:hover{
-    background-image: linear-gradient(to right,rgb(8, 72, 145), rgb(46, 0, 131));
-}
-.divs{
+
+.login-button {
     display: flex;
     align-items: center;
-   
 }
-.float{
-    float: right;
-    padding: 10px 30px;
+
+.login-button button {
+    border: none;
+    background-color: #6c63ff;
+    padding: 0.4rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login-button button:hover {
+    background-color: #6b63fff1;
+}
+
+.login-button button a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #fff;
+}
+
+.form-header h1::after {
+    content: '';
+    display: block;
+    width: 5rem;
+    height: 0.3rem;
+    background-color: #6c63ff;
+    margin: 0 auto;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.input-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.1rem;
+}
+
+.input-box input {
+    margin: 0.6rem 0;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px #0000001c;
+    font-size: 0.8rem;
+}
+
+.input-box input:hover {
+    background-color: #eeeeee75;
+}
+
+.input-box input:focus-visible {
+    outline: 1px solid #6c63ff;
+}
+
+.input-box label,
+.gender-title h6 {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: #000000c0;
+}
+
+.input-box input::placeholder {
+    color: #000000be;
+}
+
+.gender-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.62rem;
+    padding: 0 .5rem;
+}
+
+.gender-input {
+    display: flex;
+    align-items: center;
+}
+
+.gender-input input {
+    margin-right: 0.35rem;
+}
+
+.gender-input label {
+    font-size: 0.81rem;
+    font-weight: 600;
+    color: #000000c0;
+}
+
+.continue-button button {
+    width: 100%;
+    margin-top: 2.5rem;
+    border: none;
+    background-color: #6c63ff;
+    padding: 0.62rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.continue-button button:hover {
+    background-color: #6b63fff1;
+}
+
+.continue-button button a {
+    text-decoration: none;
+    font-size: 0.93rem;
+    font-weight: 500;
+    color: #fff;
+}
+
+@media screen and (max-width: 1330px) {
+    .form {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1064px) {
+    .input-group {
+        flex-direction: column;
+        z-index: 5;
+        padding-right: 5rem;
+        max-height: 10rem;
+        overflow-y: scroll;
+        flex-wrap: nowrap;
+    }
+    .gender-inputs {
+        margin-top: 2rem;
+    }
+    .gender-group {
+        flex-direction: column;
+    }
+    .gender-title h6 {
+        margin: 0;
+    }
+    .gender-input {
+        margin-top: 0.5rem;
+    }
 }
