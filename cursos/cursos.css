@@ -2,11 +2,12 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-image: linear-gradient(to right, rgb(158, 216, 243), rgb(143, 105, 231));
+    background-image: linear-gradient(to right, rgb(158, 216, 243), rgb(174, 142, 250));
     color: white;
     height: 900vh;
 }
@@ -39,9 +40,6 @@ header{
     transition: 1s;
     font-weight: bold;
 }
-nav{
-    
-}
 nav li{
     display: inline-block;
 }
@@ -62,32 +60,72 @@ nav li a:hover{
 }
 .droop-menu a {
     display: block;
-    color: black;
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(to right, #8174a7, #6e8da8);
 }
 .droop:hover .droop-menu{
     display: block;
 }
 .botao{
-    font-size: 1.2em;
-    background: #59429d;
-    border: 0;
-    margin-bottom: 1em;
-    color: #000000;
-    padding: 0.3em 0.7em;
-    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
-    text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
-    position: absolute;
-    top: 90%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
+    font-size: 14px;
+    background-image: linear-gradient(to right, #59429d, #174165);
+    color: #ffffff;
+    width: 140px;
+    border-radius: 25px;
+    height: 40px;
+    cursor: pointer;
+    outline: none;
+    transition: 1s ease-in-out;
 }
 .botao:hover{
-    background: #CCBBFF;
+    color: #000000;
+    background-image: linear-gradient(to right, #a295c9, #7796b1);
     box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
     text-shadow: none;
+    border-radius: 25px;
+}
+.link-botao{
+    color: #ffffff;
 }
 .responder{
     text-align: center;
     padding: 70px;
+}
+.tag{
+    width: 10%;
+    padding: 0 700px;
+}
+p{
+    color: #ffffff;
+    font-size: 15px;
+    text-align: center;
+}
+h1{
+    color: #59429d;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-align: center;
+    
+}
+h2{
+    color: #174165;
+}
+.float{
+    padding: 70px;
+    text-align: center;
+}
+.alinhar{
+    width: 33%;
+    float: left;
+    text-align: center;
+    margin-bottom: 65px;
+    cursor: pointer;
+    
+}
+.icones{
+    width: 30%;
+    padding: 0 90px;
+}
+.sessao2{
+    padding: 700px;
 }
