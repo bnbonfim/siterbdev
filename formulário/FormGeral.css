@@ -23,9 +23,7 @@ body {
 .form {
     width: 50%;
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    align-items: center;
     background-color: #fff;
     padding: 3rem;
 }
@@ -37,8 +35,7 @@ body {
 }
 
 .login-button {
-    display: flex;
-    align-items: center;
+    width: -100%;
 }
 
 .login-button button {
@@ -47,6 +44,7 @@ body {
     padding: 0.4rem 1rem;
     border-radius: 5px;
     cursor: pointer;
+    
 }
 
 .login-button button:hover {
