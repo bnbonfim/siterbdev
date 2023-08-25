@@ -41,7 +41,7 @@ body {
 .login-button button {
     border: none;
     background-color: #6c63ff;
-    padding: 0.4rem 1rem;
+    padding:   0.62rem;
     border-radius: 5px;
     cursor: pointer;
     
@@ -53,6 +53,7 @@ body {
 
 .login-button button a {
     text-decoration: none;
+    font-size: 0.93rem;
     font-weight: 500;
     color: #fff;
 }
@@ -152,31 +153,3 @@ body {
     color: #fff;
 }
 
-@media screen and (max-width: 1330px) {
-    .form {
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 1064px) {
-    .input-group {
-        flex-direction: column;
-        z-index: 5;
-        padding-right: 5rem;
-        max-height: 10rem;
-        overflow-y: scroll;
-        flex-wrap: nowrap;
-    }
-    .gender-inputs {
-        margin-top: 2rem;
-    }
-    .gender-group {
-        flex-direction: column;
-    }
-    .gender-title h6 {
-        margin: 0;
-    }
-    .gender-input {
-        margin-top: 0.5rem;
-    }
-}
