@@ -90,8 +90,12 @@ nav li a:hover{
     padding: 40px;
     width: 90%;
 }
-
+.div-inicial{
+    padding: 60px;
+    margin-left: 150px;
+}
 .divs{
+    display: flex;
     padding: 60px;
     margin-left: 150px;
     
@@ -105,6 +109,7 @@ nav li a:hover{
     height: 160px;
 }
 p{
+    display: flex;
     text-align: justify;
     width: 95%;
     color: #000000;
