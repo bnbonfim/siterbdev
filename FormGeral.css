@@ -165,3 +165,34 @@ body {
 label{
     font-size: 20px;
 }
+/*atualizar daqui para baixo*/
+
+.campo-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.62rem;
+    padding: 0 .5rem;
+}
+
+.campo-input {
+    display: flex;
+    align-items: center;
+}
+.campo-input input {
+    margin-right: 0.35rem;
+}
+.campo-input label {
+    font-size: 0.81rem;
+    font-weight: 600;
+    color: #000000c0;
+}
+.select-title {
+    font-size: 12px;
+    margin-top: 3em;
+    padding: 0 .5rem;
+    
+}
+#senioridade{
+    color: black;
+    
+}
