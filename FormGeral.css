@@ -13,9 +13,9 @@ body {
     background-image: url('img/ideia.png');
     background-size: 5%;
     background-position: 200px 700px; 
+    z-index: 999;
     
-}
-
+} 
 .container {
     width: 80%;
     height: 80vh;
