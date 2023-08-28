@@ -43,14 +43,14 @@ nav li{
     display: inline-block;
 }
 nav li a{
-    color: white;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     display: block;
     padding: 13.5px;
     
 }
 nav li a:hover{
-    background-color: #174165;
+    background-image: linear-gradient(to right, #8174a7, #6e8da8);
 }
 .droop-menu{
     position: absolute;
@@ -59,29 +59,9 @@ nav li a:hover{
 }
 .droop-menu a {
     display: block;
-    color: rgb(255, 255, 255);
-    
+    color: rgb(253, 0, 0);
+   
 }
 .droop:hover .droop-menu{
     display: block;
-    background-image: linear-gradient(to right, #a295c9, #7796b1);
-}
-
-.botao{
-    font-size: 14px;
-    background-image: linear-gradient(to right, #59429d, #174165);
-    color: #ffffff;
-    width: 140px;
-    border-radius: 25px;
-    height: 40px;
-    cursor: pointer;
-    outline: none;
-    transition: 1s ease-in-out;
-}
-.botao:hover{
-    color: #000000;
-    background-image: linear-gradient(to right, #a295c9, #7796b1);
-    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
-    text-shadow: none;
-    border-radius: 25px;
 }

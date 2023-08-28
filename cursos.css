@@ -9,7 +9,6 @@ body{
     font-family: Arial, Helvetica, sans-serif;
     background-image: linear-gradient(to right, rgb(158, 216, 243), rgb(174, 142, 250));
     color: white;
-    height: 900vh;
 }
 header{
     width: 100%;
@@ -61,10 +60,11 @@ nav li a:hover{
 .droop-menu a {
     display: block;
     color: rgb(255, 255, 255);
-    background-image: linear-gradient(to right, #8174a7, #6e8da8);
+    
 }
 .droop:hover .droop-menu{
     display: block;
+    background-image: linear-gradient(to right, #a295c9, #7796b1);
 }
 .botao{
     font-size: 14px;
