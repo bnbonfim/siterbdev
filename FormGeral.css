@@ -187,12 +187,21 @@ label{
     color: #000000c0;
 }
 .select-title {
-    font-size: 12px;
     margin-top: 3em;
-    padding: 0 .5rem;
+    
+    
+}
+.select-title .select-h{
+    font-size: 0.90rem;
+    font-weight: 600;
+    color: #000000c0;
     
 }
 #senioridade{
-    color: black;
+    cursor: pointer;
+    border-radius: 3px;
     
+}
+.select{
+    padding-bottom: 15px;
 }
