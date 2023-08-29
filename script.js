@@ -8,3 +8,6 @@ function abrirForm(){
         }
     })
 }
+function entrar(){
+    
+}
