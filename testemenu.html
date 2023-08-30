@@ -44,3 +44,48 @@
             </div>
         </div>
     </header>
+
+    <h2>Login</h2>
+    <input type="text" id="loginName" placeholder="Nome de usuário">
+    <input type="password" id="loginPassword" placeholder="Senha">
+    <button onclick="entrar(); return false">Entrar</button>
+
+    <h2>Registro</h2>
+    <input type="text" id="registerName" placeholder="Nome de usuário">
+    <input type="password" id="registerPassword" placeholder="Senha">
+    <button onclick="registrar(); return false">Registrar</button>
+
+    <script>
+        // login.js
+        var usuariosValidos = {
+            "bn": "123"
+        };
+
+        function entrar() {
+            var login = document.getElementById('loginName').value;
+            var senha = document.getElementById('loginPassword').value;
+
+            if (usuariosValidos[login] === senha) {
+                alert('Sucesso');
+                location.href = "index.html";
+            } else {
+                alert('Usuário ou senha incorretos!')
+            }
+        }
+
+        function registrar() {
+            var novoLogin = document.getElementById('registerName').value;
+            var novaSenha = document.getElementById('registerPassword').value;
+
+            if (novoLogin && novaSenha) {
+                usuariosValidos[novoLogin] = novaSenha;
+                alert('Conta registrada com sucesso! Agora você pode fazer login.');
+                location.href = "index.html";
+            } else {
+                alert('Nome ou senha incorretos, não tem uma conta? Clique em registrar-se');
+            }
+        }
+
+    </script>
+</body>
+</html>

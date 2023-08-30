@@ -90,7 +90,7 @@ nav li a:hover{
 }
 .tag{
     width: 10%;
-    padding: 0 712px;
+    padding: 0 607px;
     background-color: white;
 }
 p{
@@ -123,9 +123,9 @@ h2{
     
 }
 .fake{
-    width: 750px;
+    width: 600px;
     height: 410px;
-}
+} 
 .tx-vd{
     padding: 0px 40px;
     font-size: 16px;
@@ -347,4 +347,7 @@ label{
 }
 .janela-modal.abrir{
     display: flex;
+}
+iframe{
+    autop
 }

@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     text-decoration: none;
+    font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
 
 }
@@ -84,43 +85,51 @@ nav li a:hover{
     text-shadow: none;
     border-radius: 25px;
 }
-.link-botao{
-    color: #ffffff;
-}
-.tag{
-    width: 10%;
-    padding: 0 700px;
-}
-p{
-    color: #ffffff;
-    font-size: 15px;
+.responder{
     text-align: center;
-    padding: 80px 20px;
-    width: 50%;
-    float: right;
+    padding: 40px;
+    width: 90%;
 }
-h1{
-    color: #59429d;
-    text-transform: uppercase;
-    text-decoration: underline;
-    text-align: center;
-    
+.div-inicial{
+    padding: 60px;
+    margin-left: 150px;
 }
-h2{
-    color: #174165;
+.divs{
+    display: flex;
+    padding: 60px;
+    margin-left: 150px;
+     
 }
 .float{
-    padding: 50px;
+    float: left;
+    margin-right: 30px;
+    max-width: 545px;
+    height: 180px;
+}
+.float{
+    background-image: linear-gradient(to right, #e4dcfc, #d0e9ff);
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
     text-align: center;
 }
-.alinhar{
-    width: 100%;
-    float: left;
-    text-align: center;
-    margin-bottom: 65px;
-    cursor: pointer;
+p{
+    display: flex;
+    color: #000000;
+    font-size: 15px;
+    width: 90%;
+    padding: 0 26px;
     
 }
-.icones{
-    width: 20%;
+h1, h3{
+    color: #174165;
+
+    font-size: 25px;
+    margin-top: 25px;
+}
+hr{
+    border: 1px solid #174165;
+    margin-top: 5px;
+    margin-left: 50px;
+    width: 400px;
 }

@@ -23,6 +23,7 @@ header{
     flex-direction: row;
     text-align: center;
     
+    
 }
 .header{
     box-shadow: 1px 1px 4px #59429d;
@@ -34,12 +35,14 @@ header{
 }
 .menu{
     gap: 3em;
+    
 }
 .menu a {
-    color: #000000;
+    color: #59429d;
     transition: 1s;
     font-weight: bold;
 }
+
 nav li{
     display: inline-block;
 }
@@ -78,58 +81,24 @@ nav li a:hover{
     outline: none;
     transition: 1s ease-in-out;
 }
+.botao a{
+    color: white;
+}
 .botao:hover{
-    color: #000000;
+    color: #ffffff;
     background-image: linear-gradient(to right, #a295c9, #7796b1);
     box-shadow: inset 2px 2px 2px rgba(0,0,0,0.2);
     text-shadow: none;
     border-radius: 25px;
 }
-.responder{
-    text-align: center;
-    padding: 40px;
-    width: 90%;
-}
-.div-inicial{
-    padding: 60px;
-    margin-left: 150px;
-}
-.divs{
-    display: flex;
-    padding: 60px;
-    margin-left: 150px;
-    
-}
-.float{
-    float: left;
-    margin-right: 30px;
-    max-width: 545px;
-    height: 180px;
-}
-.float{
-    background-image: linear-gradient(to right, #e4dcfc, #d0e9ff);
-    border-radius: 30px;
-    justify-content: center;
-    align-items: center;
+.conteudo{
+    padding: 60px 120px;
     text-align: center;
 }
-p{
-    display: flex;
-    color: #000000;
-    font-size: 15px;
-    width: 90%;
-    padding: 0 26px;
-    
+.conteudo img{
+    width: 30%;
 }
-h1, h3{
-    color: #174165;
-
-    font-size: 25px;
-    margin-top: 25px;
-}
-hr{
-    border: 1px solid #174165;
-    margin-top: 5px;
-    margin-left: 50px;
-    width: 400px;
+.div-botao{
+    padding: 5px 2px;
+    text-align: center;
 }
