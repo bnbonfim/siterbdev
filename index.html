@@ -130,7 +130,6 @@
             <button class="fechar" id="fechar">X</button>
             <div class="login-button">
             <button><a href="index.html">Voltar</a></button>
-        </div>
             <form action="#">
                 <div class="form-header">
                     <div class="title">
@@ -141,8 +140,13 @@
 
                 <div class="input-group">
                     <div class="input-box">
-                        <label for="name">Nome</label>
-                        <input id="name" type="text" name="name" placeholder="Digite seu nome" required>
+                        <label for="firstname">Primeiro Nome</label>
+                        <input id="firstname" type="text" name="firstname" placeholder="Digite seu nome" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="lastname">Sobrenome</label>
+                        <input id="lastname" type="text" name="lastname" placeholder="Digite seu sobrenome" required>
                     </div>
                     <div class="input-box">
                         <label for="email">E-mail</label>
@@ -159,12 +163,10 @@
                         <input id="password" type="password" name="password" placeholder="Digite sua senha" required>
                     </div>
 
-
                     <div class="input-box">
-                        <label for="confirmPassword">Confirme sua Senha</label>
-                        <input id="confirmPassword" type="password" name="confirmPassword" placeholder="Digite sua senha novamente" required>
+                        <label for="confirmPassword">Confirmar senha</label>
+                        <input id="confirmPassword" type="password" name="confirmPassword" placeholder="Confirme sua senha" required>
                     </div>
-
                 </div>
 
                 <div class="gender-inputs">
@@ -196,8 +198,8 @@
                 </div>
                 <!--att daqui para baixo-->
                 <div class="campo-title">
-                    <div>
-                        <h6>Área</h6>
+                    <div id="dev-title">
+                        <h6><strong>Desenvolvedor</strong></h6>
                     </div>
                     <div class="campo-group">
                         <div class="campo-input">
@@ -217,44 +219,26 @@
                     </div>
                 </div>
 
-                <div class="select">
-                    <div class="select-title">
-                        <label for="senioridade"><h6>Senioridade</h6></label>
-                    </div>
-                    <div>
-                        <select id="senioridade" required>
-                            <option selected disabled value="">Selecione</option>
-                            <option>Junior</option>
-                            <option>Pleno</option>
-                            <option>Senior</option>
-                        </select>
-                    </div>
-                </div>
-
-                <fieldset class="grupo">
+                <fieldset id="grupo">
                     <div id="check">
-                        <label><strong>Cursos:</strong></label><br><br>
-                        <input type="checkbox" id="tecnologia5" name="tecnologia5" value="C#">
-                        <label for="tecnologia5"> C#</label>                    
-                        <input type="checkbox" id="tecnologia1" name="tecnologia1" value="HTML">
-                        <label for="tecnologia1"> HTML</label>
-                        <input type="checkbox" id="tecnologia2" name="tecnologia2" value="CSS">
-                        <label for="tecnologia2"> CSS</label>
-                        <input type="checkbox" id="tecnologia3" name="tecnologia3" value="JavaScript">
-                        <label for="tecnologia3"> JavaScript</label>
-                        <input type="checkbox" id="tecnologia4" name="tecnologia4" value="PHP">
-                        <label for="tecnologia4"> PHP</label>
-                        <input type="checkbox" id="tecnologia7" name="tecnologia7" value="Java">
-                        <label for="tecnologia7"> Java</label>
-                        <input type="checkbox" id="tecnologia6" name="tecnologia6" value="Python">
-                        <label for="tecnologia6"> Python</label>      
+                        <label id="curso-title"><strong>Cursos:</strong></label><br><br>
+                        <input class="cursin" type="checkbox" id="tecnologia1" name="tecnologia5" value="C#">
+                        <label class="cursin" for="tecnologia5"> C#</label>                    
+                        <input class="cursin" type="checkbox" id="tecnologia2" name="tecnologia1" value="HTML">
+                        <label class="cursin" for="tecnologia1"> HTML</label>
+                        <input class="cursin" type="checkbox" id="tecnologia3" name="tecnologia2" value="CSS">
+                        <label class="cursin" for="tecnologia2"> CSS</label>
+                        <input class="cursin" type="checkbox" id="tecnologia4" name="tecnologia3" value="JavaScript">
+                        <label class="cursin" for="tecnologia3"> JavaScript</label>
+                        <input class="cursin" type="checkbox" id="tecnologia5" name="tecnologia4" value="PHP">
+                        <label class="cursin" for="tecnologia4"> PHP</label>
+                        <input class="cursin" type="checkbox" id="tecnologia6" name="tecnologia7" value="Java">
+                        <label class="cursin" for="tecnologia7"> Java</label>
+                        <input class="cursin" type="checkbox" id="tecnologia7" name="tecnologia6" value="Python">
+                        <label class="cursin" for="tecnologia6"> Python</label>      
                     </div>
                 </fieldset>
-                <div class="campo">
-                    <br>
-                    <label for="experiencia"><strong> </strong></label>
-                    <textarea rows="6" style="width: 26em" id="experiencia" name="experiencia"></textarea>
-                </div>
+                
                 <div class="continue-button">
                     <button><a href="#">Continuar</a> </button>
                 </div>
