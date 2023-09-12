@@ -36,8 +36,8 @@
                         <li class="droop">
                             <a href="blog.html">Blog</a>
                         </li>
-                        <button onclick="abrirForm()" class="botao" > 
-                            <a>Inscreva-se</a> 
+                        <button class="botao" > 
+                            <a href="FormGeral.html">Inscreva-se</a> 
                         </button>
                     </ul>
                 </nav>
@@ -88,184 +88,31 @@
                 <br>
             </div>
         </div>
-        <div class="float">
-            <div>
-                <br>
-                <br>
-                <br>
-                <br>
-            </div>
-        </div>
         
     </section>
     <section>
         <div>
-            <img src="img/arquivo.gif" class="tag">
-                <br>
-                <br>
-                <br>
                 <h2>Motivos para  fazer nossos cursos</h2>
-                <div>
-                    <h3>1. Amplas Oportunidades de Carreira</h3>
-                    <h3>2. Aprendizado Prático e Hands-on</h3>
-                    <h3>3. Instrutores Experientes e Apoio Personalizado</h3>
-                    <h3>4. Variedade de Cursos para Todos os Níveis</h3>
-                    <h3>5. Certificados Reconhecidos</h3>
-                    <h3>6. Comunidade Ativa e Networking</h3>
-                    <h3>7. Acesso a Recursos Atualizados</h3>
-                    <h3>8. Desenvolva Projetos Significativos</h3>
-                    <h3>9. Flexibilidade de Aprendizado</h3>
-                    <h3>10. Investimento em Seu Futuro</h3>
-                </div>
-        </div> 
-    </section>
-    <section>
-       <div >
-           
-        </div> 
-    </section>
-
-    <div class="janela-modal" id="janela-modal"> 
-        <div class="form">
-            <button class="fechar" id="fechar">X</button>
-            <div class="login-button">
-            <button><a href="index.html">Voltar</a></button>
-        </div>
-            <form action="#">
-                <div class="form-header">
-                    <div class="title">
-                        <h1>Cadastre-se</h1>
+                <div class="divs">
+                    <div class="float">
+                        <h3>1. Amplas Oportunidades de Carreira</h3>
+                        <h3>2. Aprendizado Prático e Hands-on</h3>
+                        <h3>3. Instrutores Experientes e Apoio Personalizado</h3>
+                        <h3>4. Variedade de Cursos para Todos os Níveis</h3>
+                        <h3>5. Certificados Reconhecidos</h3>
+                        
                     </div>
-                    
-                </div>
-
-                <div class="input-group">
-                    <div class="input-box">
-                        <label for="name">Nome</label>
-                        <input id="name" type="text" name="name" placeholder="Digite seu nome" required>
+                    <div class="float">
+                        <h3>6. Comunidade Ativa e Networking</h3>
+                        <h3>7. Acesso a Recursos Atualizados</h3>
+                        <h3>8. Desenvolva Projetos Significativos</h3>
+                        <h3>9. Flexibilidade de Aprendizado</h3>
+                        <h3>10. Investimento em Seu Futuro</h3> 
                     </div>
-                    <div class="input-box">
-                        <label for="email">E-mail</label>
-                        <input id="email" type="email" name="email" placeholder="Digite seu e-mail" required>
-                    </div>
-
-                    <div class="input-box">
-                        <label for="number">Celular</label>
-                        <input id="number" type="tel" name="number" placeholder="(xx) xxxx-xxxx" required>
-                    </div>
-
-                    <div class="input-box">
-                        <label for="password">Senha</label>
-                        <input id="password" type="password" name="password" placeholder="Digite sua senha" required>
-                    </div>
-
-
-                    <div class="input-box">
-                        <label for="confirmPassword">Confirme sua Senha</label>
-                        <input id="confirmPassword" type="password" name="confirmPassword" placeholder="Digite sua senha novamente" required>
-                    </div>
-
-                </div>
-
-                <div class="gender-inputs">
-                    <div class="gender-title">
-                        <h6>Gênero</h6>
-                    </div>
-
-                    <div class="gender-group">
-                        <div class="gender-input">
-                            <input id="female" type="radio" name="gender">
-                            <label for="female">Feminino</label>
-                        </div>
-
-                        <div class="gender-input">
-                            <input id="male" type="radio" name="gender">
-                            <label for="male">Masculino</label>
-                        </div>
-
-                        <div class="gender-input">
-                            <input id="others" type="radio" name="gender">
-                            <label for="others">Outros</label>
-                        </div>
-
-                        <div class="gender-input">
-                            <input id="none" type="radio" name="gender">
-                            <label for="none">Prefiro não dizer</label>
-                        </div>
-                    </div>
-                </div>
-                <!--att daqui para baixo-->
-                <div class="campo-title">
-                    <div>
-                        <h6>Área</h6>
-                    </div>
-                    <div class="campo-group">
-                        <div class="campo-input">
-                            <input type="radio" name="devweb" value="frontend">
-                            <label for="frontend">Front-end</label>
-                        </div>
-
-                        <div class="campo-input">
-                            <input type="radio" name="devweb" value="backend">
-                            <label for="backend">Back-end</label>
-                        </div>
-
-                        <div class="campo-input">
-                            <input type="radio" name="devweb" value="fullstack">
-                            <label for="fullstack">Fullstack</label>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="select">
-                    <div class="select-title">
-                        <label for="senioridade"><h6>Senioridade</h6></label>
-                    </div>
-                    <div>
-                        <select id="senioridade" required>
-                            <option selected disabled value="">Selecione</option>
-                            <option>Junior</option>
-                            <option>Pleno</option>
-                            <option>Senior</option>
-                        </select>
-                    </div>
-                </div>
-
-                <fieldset class="grupo">
-                    <div id="check">
-                        <label><strong>Cursos:</strong></label><br><br>
-                        <input type="checkbox" id="tecnologia5" name="tecnologia5" value="C#">
-                        <label for="tecnologia5"> C#</label>                    
-                        <input type="checkbox" id="tecnologia1" name="tecnologia1" value="HTML">
-                        <label for="tecnologia1"> HTML</label>
-                        <input type="checkbox" id="tecnologia2" name="tecnologia2" value="CSS">
-                        <label for="tecnologia2"> CSS</label>
-                        <input type="checkbox" id="tecnologia3" name="tecnologia3" value="JavaScript">
-                        <label for="tecnologia3"> JavaScript</label>
-                        <input type="checkbox" id="tecnologia4" name="tecnologia4" value="PHP">
-                        <label for="tecnologia4"> PHP</label>
-                        <input type="checkbox" id="tecnologia7" name="tecnologia7" value="Java">
-                        <label for="tecnologia7"> Java</label>
-                        <input type="checkbox" id="tecnologia6" name="tecnologia6" value="Python">
-                        <label for="tecnologia6"> Python</label>      
-                    </div>
-                </fieldset>
-                <div class="campo">
-                    <br>
-                    <label for="experiencia"><strong> </strong></label>
-                    <textarea rows="6" style="width: 26em" id="experiencia" name="experiencia"></textarea>
-                </div>
-                <div class="continue-button">
-                    <button><a href="#">Continuar</a> </button>
                 </div>
                 
-            </form>
-        </div>
-   </div>
-   <script>
-        var nome = window.prompt('Bem-Vindo, iforme seu nome')
-        window.alert('Seja Bem-vindo, ' +nome +' Bitch')  
-   </script>
-    <script src="script.js"></script>       
+        </div> 
+    </section>
+
 </body>
 </html>

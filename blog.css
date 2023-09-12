@@ -87,21 +87,30 @@ nav li a:hover{
     border-radius: 25px;
 }
 .conteudo{
-    width: 90%;
     margin: 0 auto;
     padding:  50px;
+    align-items: center;
 }
 .divs{
-    margin-top: 50px;
+    margin-top: 10px;
     display: flex;
-    margin-left: 20%;
+    margin-left: 190px;
     
 }
 .float{
     float: left;
-    margin-right: 50px;
-    height: 180px;
+    margin-top: 25px;
+    margin-left: 25px;
 }
 .canequinha{
     width: 180px;
+}
+h1{
+    color: #174165;
+}
+h2{
+    color: #59429d;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-align: center;
 }

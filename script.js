@@ -1,19 +1,9 @@
-function abrirForm(){
-    const form = document.getElementById('janela-modal')
-    form.classList.add('abrir')
-    
-    form.addEventListener('click', (e) => {
-        if(e.target.id == 'fechar' || e.target.id == 'janela-modal'){
-            form.classList.remove('abrir')
-        }
-    })
-}
 function entrar(){
     var login = document.getElementById('name').value;
     var senha = document.getElementById('password').value;
 
     if(login == 'bn' && senha =="123"){
-        alert('Bem vindo(a) clique em ok.');
+        alert('Bem vindo(a) ' +login +' clique em ok.');
         location.href = "index.html";
     }else{
         alert('Nome ou senha incorretos, não tem uma conta? Clique em registrar-se')
