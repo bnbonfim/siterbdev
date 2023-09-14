@@ -13,13 +13,13 @@ if (!$conn){
 $nome = $_POST['name'];
 $email = $_POST['email'];
 $senha = $_POST['password'];
+$cripsenha = password_hash($senha, PASSWORD_DEFAULT);
 
-$sql = "INSERT INTO usuario (nome, email, senha) VALUES ('$nome', '$email', '$senha')";
+$sql = "INSERT INTO usuario (nome, email, senha) VALUES ('$nome', '$email', '$cripsenha')";
 if($conn->query($sql) === true){
-        echo "cadastro realizado";
-        header('location:index.html');
+    echo "<script>alert('Cadastro realizado');window.location.href='index.html';</script>";
 }else{
-        echo "Erro nessa merda".$conn->error;
+    echo "<script>alert('Acho que deu merta ae em');window.location.href='erro.html';</script>";
 }
 $conn->close();
 ?>

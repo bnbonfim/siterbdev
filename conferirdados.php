@@ -18,9 +18,8 @@ $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
     // Login bem-sucedido
-    echo "Login bem-sucedido!";
-    header('location:index.html');
+    echo "<script>alert('Seja bem vindo(a)');window.location.href='index.html';</script>";
 } else {
     // Login falhou
-    echo "Nome de usuário ou senha incorretos.";
+    echo "<script>alert('Dados incorretos, você possui conta? se não clique em registrar-se');window.location.href='login.html';</script>";
 }
