@@ -8,14 +8,14 @@
     <link rel="shortcut icon" href="img/rb dev.jpg">
   </head>
   
-<body>
+<body style="background-color: cadetblue">
   <main class="container">
     <div>
         <i style="--color: blueviolet;"></i>
         <i style="--color: rgb(24, 66, 100);"></i>
         <i style="--color: rgb(255, 255, 255);"></i>
     </div>
-    <form class="form-login" method="post">
+    <form action="conecao.php" class="form-login" method="post">
         <div id="form-header">
             <h1>Registro</h1>         
         </div>
@@ -66,15 +66,13 @@
                     <a href="login.html">
                       Já tenho uma conta
                     </a>
-                    
                 </div>
             </div>
         </div>
-        <button onclick="registrar(); return false" type="submit" id="login-button">
+        <button type="submit" id="login-button">
           Login
         </button>
     </form>
 </main>
-<script src="script.js"></script>
 </body>
 </html>
